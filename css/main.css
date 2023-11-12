@@ -1,8 +1,16 @@
 :root {
 
     --bs-boxShadow: 2px 2px 0px #141010;
+    --c-cards: #f5f0f0;
+    --c-background: #0f0c0c;
+    --c-header: f5f5fa;
 
 }
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--c-background);
+    color: var(--c-header);
 }
