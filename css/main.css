@@ -9,8 +9,6 @@
     --c-button: #B966D9;
     --c-Orange: #EB692F;
     --c-Blue: #0054AE;
-    
-
 
     --ff-Title: 'Satisfy', cursive;
     --ff-subHead: 'Lato', sans-serif;
@@ -23,22 +21,24 @@
 body {
     background-color: var(--c-background);
     color: var(--c-header);
+    padding:1rem;
 }
+
 
 h1 {
     font-family: var(--ff-Title);
-    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
 }
 
 h2 {
     font-family: var(--ff-subHead);
     font-size: clamp(1.25rem, 4vw, 1.5rem);
     letter-spacing: 0.1em;
-    /*font-weight: 300;*/
 }
+
 h3 {
     font-family: var(--ff-subHead);
-    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    font-size: clamp(1.15rem, 4vw, 1.2rem);
     font-weight: 1000;
 }
 
@@ -47,6 +47,7 @@ h3 {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
 }
 
 .tile {
