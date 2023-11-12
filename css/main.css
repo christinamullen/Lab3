@@ -1,0 +1,8 @@
+:root {
+
+    --bs-boxShadow: 2px 2px 0px #141010;
+
+}
+* {
+    box-sizing: border-box;
+}
