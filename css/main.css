@@ -6,7 +6,7 @@
     --c-cards: #f5f0f0;
     --c-background: #0f0c0c;
     --c-header: #f5f5fa;
-    --c-tileHeader: #B966D9;
+    --c-button: #B966D9;
     --c-Orange: #EB692F;
     --c-Blue: #0054AE;
     
@@ -70,3 +70,17 @@ h3 {
     border-radius: .25rem;
  }
 
+.tile a{
+    display: block;
+    background: var(--c-button);
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-align: center;
+    padding: 1rem 6rem ;
+    border-radius: .3rem;
+    color: white;
+    text-decoration: none;
+}
+.tile a:hover{
+    background: var(--c-Orange);
+}
