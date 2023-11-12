@@ -85,3 +85,12 @@ h3 {
 .tile a:hover{
     background: var(--c-Orange);
 }
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--ff-subHead);
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-weight: 300;
+}
