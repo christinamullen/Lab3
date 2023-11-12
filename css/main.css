@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Satisfy&display=swap');
+
 :root {
 
     --bs-boxShadow: 2px 2px 0px #141010;
     --c-cards: #f5f0f0;
     --c-background: #0f0c0c;
-    --c-header: f5f5fa;
+    --c-header: #f5f5fa;
+
+    --ff-Title: 'Satisfy', cursive;
+    --ff-subHead: 'Lato', sans-serif;
 
 }
 * {
@@ -13,4 +18,17 @@
 body {
     background-color: var(--c-background);
     color: var(--c-header);
+}
+
+h1 {
+    font-family: var(--ff-Title);
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+}
+
+h2 {
+    font-family: var(--ff-subHead);
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    letter-spacing: 0.1em;
+    /*font-weight: 300;*/
+    
 }
