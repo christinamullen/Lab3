@@ -6,6 +6,11 @@
     --c-cards: #f5f0f0;
     --c-background: #0f0c0c;
     --c-header: #f5f5fa;
+    --c-tileHeader: #B966D9;
+    --c-Orange: #EB692F;
+    --c-Blue: #0054AE;
+    
+
 
     --ff-Title: 'Satisfy', cursive;
     --ff-subHead: 'Lato', sans-serif;
@@ -30,5 +35,38 @@ h2 {
     font-size: clamp(1.25rem, 4vw, 1.5rem);
     letter-spacing: 0.1em;
     /*font-weight: 300;*/
-    
 }
+h3 {
+    font-family: var(--ff-subHead);
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    font-weight: 1000;
+}
+
+
+.grid-p {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.tile {
+    border-radius: .5rem;
+    background-color: var(--c-header);
+    color: var(--c-Blue);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ .tile img {
+    width: 100%;
+    object-fit: cover;
+    height: 275px;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: .25rem;
+ }
+
